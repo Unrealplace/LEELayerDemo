@@ -13,6 +13,7 @@
 		2BFA46EA1FDE1ACE0049D7B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA46E91FDE1ACE0049D7B6 /* Assets.xcassets */; };
 		2BFA46ED1FDE1ACE0049D7B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BFA46EB1FDE1ACE0049D7B6 /* LaunchScreen.storyboard */; };
 		2BFA46F01FDE1ACE0049D7B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BFA46EF1FDE1ACE0049D7B6 /* main.m */; };
+		B6ADC7B31FE666530056722A /* CAShapeLayerButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B6ADC7B21FE666530056722A /* CAShapeLayerButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		2BFA46EC1FDE1ACE0049D7B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2BFA46EE1FDE1ACE0049D7B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BFA46EF1FDE1ACE0049D7B6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6ADC7B11FE666530056722A /* CAShapeLayerButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAShapeLayerButton.h; sourceTree = "<group>"; };
+		B6ADC7B21FE666530056722A /* CAShapeLayerButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAShapeLayerButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				2BFA46E11FDE1ACE0049D7B6 /* AppDelegate.m */,
 				2BFA46E31FDE1ACE0049D7B6 /* ViewController.h */,
 				2BFA46E41FDE1ACE0049D7B6 /* ViewController.m */,
+				B6ADC7B11FE666530056722A /* CAShapeLayerButton.h */,
+				B6ADC7B21FE666530056722A /* CAShapeLayerButton.m */,
 				2BFA46E61FDE1ACE0049D7B6 /* Main.storyboard */,
 				2BFA46E91FDE1ACE0049D7B6 /* Assets.xcassets */,
 				2BFA46EB1FDE1ACE0049D7B6 /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BFA46E51FDE1ACE0049D7B6 /* ViewController.m in Sources */,
+				B6ADC7B31FE666530056722A /* CAShapeLayerButton.m in Sources */,
 				2BFA46F01FDE1ACE0049D7B6 /* main.m in Sources */,
 				2BFA46E21FDE1ACE0049D7B6 /* AppDelegate.m in Sources */,
 			);
@@ -279,7 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CD678479PM;
+				DEVELOPMENT_TEAM = 9BQNL96S8U;
 				INFOPLIST_FILE = LayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LayerDemo;
@@ -293,7 +299,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CD678479PM;
+				DEVELOPMENT_TEAM = 9BQNL96S8U;
 				INFOPLIST_FILE = LayerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LayerDemo;
